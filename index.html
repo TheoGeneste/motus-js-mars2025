@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motus</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>M<span class="yellow">O</span><span class="red">T</span>US</h1>
+        <h2>Partie Gagné : <span id="gameWon">0</span></h2>
+        <h2>Partie Perdu : <span id="gameLoose">0</span></h2>
+        <h2>Moyenne : <span id="average">0</span></h2>
+        <h2>Moyenne de coups : <span id="averageTry">0</span></h2>
+        <h2>Nombre de coups restant <span id="remainingTry">6</span></h2>
+    </div>
+    <table id="grid">
+        <!-- Rempli à l'aide de JS -->
+    </table>
+    <div id="keyboard">
+        <div id="keyboardRow1" class="keyboardRow">
+            <span class="letters">A</span>
+            <span class="letters">Z</span>
+            <span class="letters">E</span>
+            <span class="letters">R</span>
+            <span class="letters">T</span>
+            <span class="letters">Y</span>
+            <span class="letters">U</span>
+            <span class="letters">I</span>
+            <span class="letters">O</span>
+            <span class="letters">P</span>
+        </div>
+        <div id="keyboardRow2" class="keyboardRow">
+            <span class="letters">Q</span>
+            <span class="letters">S</span>
+            <span class="letters">D</span>
+            <span class="letters">F</span>
+            <span class="letters">G</span>
+            <span class="letters">H</span>
+            <span class="letters">J</span>
+            <span class="letters">K</span>
+            <span class="letters">L</span>
+            <span class="letters">M</span>
+        </div>
+        <div id="keyboardRow3" class="keyboardRow">
+            <span class="letters" id="delete">Suppr</span>
+            <span class="letters">W</span>
+            <span class="letters">X</span>
+            <span class="letters">C</span>
+            <span class="letters">V</span>
+            <span class="letters">B</span>
+            <span class="letters">N</span>
+            <span class="letters" id="enter">Entrer</span>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

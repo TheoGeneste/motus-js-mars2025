@@ -1,0 +1,97 @@
+/* id
+class
+balise
+* */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+}
+
+table, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    font-size: 2rem;
+}
+
+td{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.keyboard {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboardRow{
+    display: flex;
+    justify-content: center;
+}
+
+.keyboardRow > span{
+    flex-grow: 1;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#enter, #delete{
+    flex-grow: 2;
+}
+
+#enter{
+    background-color: blue;
+    color: white;
+}
+
+#delete{
+    background-color: red;
+    color: white;
+}
